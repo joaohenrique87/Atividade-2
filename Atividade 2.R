@@ -1,6 +1,6 @@
 library(tidyverse)
 library(scales)
-
+###### DICIONARIO ###### 
 # idade =  age: Age of primary beneficiary (int)
 # 
 # sexo =  sex: Gender of beneficiary (male, female)
@@ -53,7 +53,7 @@ fumante_banco <- banco %>%
 plot_fumante <- ggplot(banco, aes(x = fumante, y = conta, fill = fumante)) +
   geom_boxplot(alpha = 0.7, show.legend = FALSE) +
   labs(
-    title = "Comparação de Custos de Seguro: Fumantes vs. Não Fumantes",
+    title = "Comparação de Custos de Plano: Fumantes vs. Não Fumantes",
     x = "Hábito de Fumar",
     y = "Custos do Seguro (em $)"
   ) +
