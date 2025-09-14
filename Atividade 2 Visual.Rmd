@@ -140,11 +140,3 @@ correlacao_idade <- cor.test(banco$idade, banco$conta)
 print("Resultado do Teste de Correlação para a Hipótese 3:")
 print(correlacao_idade)
 ```
-***
-
-**3. Gere o Relatório**
-
-* Salve o arquivo com um nome como `relatorio.Rmd`.
-* Clique no botão **Knit** no RStudio.
-
-Isso irá executar o seu código e gerar um arquivo `relatorio.html` contendo todos os outputs (prints e gráficos) que o seu script produz. Você pode então enviar este arquivo HTML para o seu professor.
